@@ -26,7 +26,15 @@ outputs:
     label: "Capture baseCommand's STDOUT to outputs."
     type: stdout
 
+#stdout: $(inputs.data_file)
+
+
 #stdout: $(inputs.result_file)
+#  -id: result_file
+#    type: String
+#  - id: result_file
+#    label: "Captured STDOUT to output file."
+#    type: File
 
 stdout:
   -id: result_file

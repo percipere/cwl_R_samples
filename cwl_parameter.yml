@@ -1,11 +1,12 @@
+# Input description
 script_file:
   class: File
   path: cwl_template.R
 data_file:
   class: File
   path: cwl_template.tsv
-result_file:
-  class: File
-  path: cwl_stdout.txt
 
+# Output description
+# Warning: Don't specify this object as File.
+# If you set this object as File, specified file should exist beforehand.
 result_file: cwl_stdout.txt

@@ -6,7 +6,7 @@ install.packages('pastecs')
 # Select library to use
 library(pastecs)
 
-# Retrive data file name from command line arguments.
+# Retrieve data file name from command line arguments.
 data_file = commandArgs(trailingOnly=TRUE)[1]
 
 # Read data from stdin.

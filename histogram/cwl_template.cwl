@@ -28,6 +28,3 @@ outputs:
 
 stdout: $(inputs.result_file)
 
-#stdout:
-#  -id: result_file
-#    type: string
